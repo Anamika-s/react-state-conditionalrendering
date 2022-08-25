@@ -6,10 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import {First} from './First';
 import Employee from './Employee';
 import { Emp } from './EmployeeUsingHook'; 
+import Home from './Home'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <App />  
+      {/* <App />   */}
+      <Home/>
     {/* <First/>   */}
     {/* <Employee/> */}
     {/* <Emp/> */}
