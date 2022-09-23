@@ -36,11 +36,8 @@ this.setState({isLoggedIn:true})
   }
 }
 
-
 function Message(props)
 { 
-   
-  let {isLoggedIn} = props.isLoggedIn;
   console.log(props.isLoggedIn)
   if(props.isLoggedIn)
     return  <h1> Welcome User </h1>
